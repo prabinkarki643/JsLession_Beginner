@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Array</title>
+    <script type="text/javascript">
+      /*
+    Used to store multiple values
+    First Index will be zero
+    Reference:
+    https://www.guru99.com/learn-arrays-in-javascript.html
+    Syntax:
+    Declare: var name; OR const name;
+    Assign:  var name = [10,12,15,....]; OR
+             var name;
+             name=[10,12,15,....] OR
+             name[]
+
+    */
+      const names = ["Prabin", "Nagina", "Pragin", "Pragina"];
+      console.log("names", names);
+
+      //    Utilities Menthods
+      console.log("length", names.length);
+      //   Accessing Value Using Index
+      console.log("Print", names[1]);
+      //   Adding TO End
+      names.push("Pragin2");
+      //   Adding TO Start
+      names.unshift("Pragin3");
+      console.log("names updated 1", names);
+      // Removing Item
+      names.pop();
+      console.log("names updated 2", names);
+    </script>
+  </head>
+  <body></body>
+</html>

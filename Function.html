@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Functions</title>
+    <script type="text/javascript">
+      /*
+    A function is a block of code which will be executed only if it is called
+    Used to make the code reusable
+    Reference:
+   https://www.guru99.com/learn-functions-in-javascript-in-5-minutes.html
+    Syntax:
+    How to Create a Function in JavaScript
+        >Use the keyword function followed by the name of the function.
+        >After the function name, open and close parentheses.
+        >After parenthesis, open and close curly braces.
+        >Within curly braces, write your lines of code.
+
+    Summary:
+    >Function Without Argument OR With argument
+    >Function Without return value OR with return value
+    */
+
+      // Defining Function (Without Arguments)
+      function printNagina() {
+        //Code
+        console.log("Nagina");
+      }
+      //Calling Function
+      printNagina();
+
+      // Defining Function (With Single Arguments)
+      function printName(name) {
+        //Code
+        console.log("With Arguments Output", name);
+      }
+      //Calling Function
+      printName("Prabin");
+      printName("Pragina");
+      printName("Pragin");
+
+      // Defining Function (With Multiple Arguments)
+      function printFullName(firstName, lastName) {
+        //Code
+        console.log("FirstName", firstName);
+        console.log("LastName", lastName);
+      }
+      //Calling Function
+      printFullName("Prabin", "Karki");
+      printFullName("Pragina", "Bista");
+      printFullName("Pragin", "Karki");
+
+      // Defining Function (With Return Value)
+      function getFullName(firstName, lastName) {
+        //Code
+        return firstName + lastName;
+      }
+      //Calling Function
+      var returnValue = getFullName("Prabin", "Karki");
+      console.log("Return value", returnValue);
+    </script>
+  </head>
+  <body></body>
+</html>
